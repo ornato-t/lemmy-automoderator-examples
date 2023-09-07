@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/comment.json",
+    "rule": "comment",
+    "community": "general",
+    "match": "/stink|fudge/",
+    "type": "regex",
+    "whitelist_exempt": true,
+    "mod_exempt": false,
+    "message": "Watch your language!",
+    "removal_reason": null
+}

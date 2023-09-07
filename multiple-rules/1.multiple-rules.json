@@ -1,0 +1,26 @@
+[
+    {
+        "rule": "comment",
+        "community": "general",
+        "match": "/fudge|dang/i",
+        "type": "regex",
+        "whitelist_exempt": true,
+        "mod_exempt": false,
+        "message": null,
+        "removal_reason": null
+    }, {
+        "rule": "post",
+        "community": "general",
+        "field": "title+body",
+        "type": "regex",
+        "match": "/frick/i",
+        "whitelist_exempt": true,
+        "mod_exempt": false,
+        "message": null,
+        "removal_reason": null
+    }, {
+        "rule": "exception",
+        "user_actor_id": "https://lemmy.ml/u/Bob",
+        "community": "general"
+    }
+]

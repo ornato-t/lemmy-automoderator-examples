@@ -4,8 +4,8 @@
     "community": "starwars",
     "match": "/high ground/i",
     "type": "regex",
-    "whitelist_exempt": true,
-    "mod_exempt": false,
-    "message": "Only the mods can quote the Prequels",
-    "removal_reason": "Prequel posting"
+    "whitelist_exempt": false,
+    "mod_exempt": true,
+    "message": null,
+    "removal_reason": null
 }

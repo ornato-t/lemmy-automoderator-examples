@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/comment.json",
+    "rule": "comment",
+    "community": "memes",
+    "match": "pizza",
+    "type": "exact",
+    "whitelist_exempt": false,
+    "mod_exempt": false,
+    "message": "Your comment has been removed because I don't like pizza",
+    "removal_reason": "Said the word 'pizza'"
+}

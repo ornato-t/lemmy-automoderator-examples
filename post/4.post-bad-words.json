@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/post.json",
+    "rule": "post",
+    "community": "general",
+    "field": "title+body",
+    "type": "regex",
+    "match": "/frick/i",
+    "whitelist_exempt": false,
+    "mod_exempt": false,
+    "message": "Watch your language!",
+    "removal_reason": null
+}

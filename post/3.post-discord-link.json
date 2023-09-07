@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/post.json",
+    "rule": "post",
+    "community": "general",
+    "field": "link",
+    "type": "exact",
+    "match": "discord",
+    "whitelist_exempt": true,
+    "mod_exempt": true,
+    "message": "To avoid spam, Discord links are automatically removed",
+    "removal_reason": "Contained a Discord link"
+}

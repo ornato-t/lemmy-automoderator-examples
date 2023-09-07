@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/post.json",
+    "rule": "post",
+    "community": "memes",
+    "field": "title",
+    "type": "exact",
+    "match": "pizza",
+    "whitelist_exempt": false,
+    "mod_exempt": false,
+    "message": "Your post has been removed because discussions about pizza are prohibited in this community",
+    "removal_reason": "Said the word 'pizza'"
+}
