@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/ornato-t/lemmy-automoderator/master/src/schemas/comment.json",
     "rule": "comment",
-    "community": "test",
-    "match": "pill",
+    "community": "starwars",
+    "match": "/high ground/i",
     "type": "regex",
-    "whitelist_exempt": false,
+    "whitelist_exempt": true,
     "mod_exempt": false,
-    "message": "I told you, don't talk about pills",
-    "removal_reason": "test"
+    "message": "Only the mods can quote the Prequels",
+    "removal_reason": "Prequel posting"
 }
